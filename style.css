@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: lightblue;
+    color: white;
+}
+
+h1 , h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inputs-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    font-size: 16px;
+}
+
+.submit{
+    margin-top: 20px;
+}
+
+#submit-btn{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 0;
+    color: white;
+    background-color: blue;
+}
+
+#length{
+    width: 50px;
+    height: 30px;
+}
